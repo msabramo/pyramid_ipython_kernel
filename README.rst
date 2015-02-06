@@ -1,8 +1,17 @@
 pyramid_ipython_kernel
 =================================
 
-- Set this up
-- Run your Pyramid app
+- Configure:
+
+.. code-block:: ini
+
+    pyramid.includes =
+        pyramid_ipython_kernel
+
+- Run your Pyramid app::
+
+    $ pserve development.ini
+
 - Profit::
 
     $ ipython console --existing
@@ -15,8 +24,13 @@ pyramid_ipython_kernel
     help      -> Python's own help system.
     object?   -> Details about 'object', use 'object??' for extra details.
 
-    In [1]: config
-    Out[3]: <pyramid.config.Configurator at 0x107f0ded0>
+    In [1]: # Why does this start and [1] and then jump to last used number?
 
-    In [4]: config.registry
-    Out[4]: <Registry kotti>
+    In [10]: config
+    Out[10]: <pyramid.config.Configurator at 0x107e0ded0>
+
+    In [11]: config.registry
+    Out[11]: <Registry kotti>
+
+    In [12]: settings['kotti.request_factory']
+    Out[12]: [kotti.request.Request]
