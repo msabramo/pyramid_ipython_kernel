@@ -3,10 +3,10 @@ pyramid_ipython_kernel
 
 - Configure:
 
-.. code-block:: ini
+  .. code-block:: ini
 
-    pyramid.includes =
-        pyramid_ipython_kernel
+      pyramid.includes =
+          pyramid_ipython_kernel
 
 - Run your Pyramid app::
 
