@@ -47,3 +47,8 @@ pyramid_ipython_kernel
 
     In [12]: settings['kotti.request_factory']
     Out[12]: [kotti.request.Request]
+
+See also
+--------
+
+https://github.com/msabramo/pyramid_ssh_crochet
