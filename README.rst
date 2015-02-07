@@ -11,6 +11,19 @@ pyramid_ipython_kernel
 - Run your Pyramid app::
 
     $ pserve development.ini
+    ...
+    2015-02-06 13:42:57,181 INFO  [MainThread][pyramid_ipython_kernel.includeme][pyramid_ipython_kernel.py +41] pyramid_ipython_kernel: Starting an IPython kernel
+    2015-02-06 13:42:57,183 INFO  [MainThread][pyramid_ipython_kernel.includeme][pyramid_ipython_kernel.py +44] pyramid_ipython_kernel: Started an IPython kernel: <IPythonKernelThread(IPython kernel, started daemon 4438888448)>
+    NOTE: When using the `ipython kernel` entry point, Ctrl-C will not work.
+
+    To exit, you will have to explicitly quit this process, by either sending
+    "quit" from a client, or using Ctrl-\ in UNIX-like environments.
+
+    To read more about this, see https://github.com/ipython/ipython/issues/2049
+
+    To connect another client to this kernel, use:
+        --existing kernel-48054.json
+    ...
 
 - Profit::
 
