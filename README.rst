@@ -1,6 +1,8 @@
 pyramid_ipython_kernel
 =================================
 
+Embed an IPython kernel inside your Pyramid_ app, so that you can connect to it with an IPython client and introspect.
+
 - Configure:
 
   .. code-block:: ini
@@ -52,3 +54,6 @@ See also
 --------
 
 https://github.com/msabramo/pyramid_ssh_crochet
+
+
+.. _Pyramid: http://www.trypyramid.com/
