@@ -53,7 +53,8 @@ Embed an IPython_ kernel inside your Pyramid_ app, so that you can connect to it
 See also
 --------
 
-https://github.com/msabramo/pyramid_ssh_crochet
+- https://github.com/msabramo/pyramid_ssh_crochet
+- https://github.com/ipython/ipython/issues/4032
 
 
 .. _IPython: http://ipython.org/
